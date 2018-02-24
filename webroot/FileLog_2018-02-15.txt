@@ -1,0 +1,18 @@
+2018-02-15 18:25:06 HttpConnector Opening server socket on all host IP addresses
+2018-02-15 18:25:06 HttpConnector httpConnector, io problem: 
+java.net.BindException: Address already in use: JVM_Bind:8080
+	at org.apache.catalina.connector.http.HttpConnector.open(HttpConnector.java:930)
+	at org.apache.catalina.connector.http.HttpConnector.initialize(HttpConnector.java:1142)
+	at ex10.pyrmont.startup.Bootstrap1.main(Bootstrap1.java:87)
+
+2018-02-15 18:25:16 HttpConnector Opening server socket on all host IP addresses
+2018-02-15 18:25:16 HttpConnector[8080] Starting background thread
+2018-02-15 18:25:17 HttpProcessor[8080][0] Starting background thread
+2018-02-15 18:25:17 HttpProcessor[8080][1] Starting background thread
+2018-02-15 18:25:17 HttpProcessor[8080][2] Starting background thread
+2018-02-15 18:25:17 HttpProcessor[8080][3] Starting background thread
+2018-02-15 18:25:17 HttpProcessor[8080][4] Starting background thread
+2018-02-15 18:25:17 WebappLoader[/myApp]: Deploying class repositories to work directory E:\git\tomcat-learn\work\_\_\myApp
+2018-02-15 18:25:17 WebappLoader[/myApp]: Deploy class files /WEB-INF/classes to E:\git\tomcat-learn\myApp\WEB-INF\classes
+2018-02-15 18:25:17 StandardManager[/myApp]: Seeding random number generator class java.security.SecureRandom
+2018-02-15 18:25:17 StandardManager[/myApp]: Seeding of random number generator has been completed

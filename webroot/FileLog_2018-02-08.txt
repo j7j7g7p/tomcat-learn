@@ -1,0 +1,9 @@
+2018-02-08 10:58:07 HttpConnector Opening server socket on all host IP addresses
+2018-02-08 10:58:07 HttpConnector[8080] Starting background thread
+2018-02-08 10:58:07 HttpProcessor[8080][0] Starting background thread
+2018-02-08 10:58:07 HttpProcessor[8080][1] Starting background thread
+2018-02-08 10:58:07 HttpProcessor[8080][2] Starting background thread
+2018-02-08 10:58:07 HttpProcessor[8080][3] Starting background thread
+2018-02-08 10:58:07 HttpProcessor[8080][4] Starting background thread
+2018-02-08 10:58:07 starting Context
+2018-02-08 10:58:07 Context started

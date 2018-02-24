@@ -1,0 +1,176 @@
+2018-02-18 18:38:29 HttpConnector Opening server socket on all host IP addresses
+2018-02-18 18:38:29 HttpConnector[8080] Starting background thread
+2018-02-18 18:38:29 HttpProcessor[8080][0] Starting background thread
+2018-02-18 18:38:29 HttpProcessor[8080][1] Starting background thread
+2018-02-18 18:38:29 HttpProcessor[8080][2] Starting background thread
+2018-02-18 18:38:29 HttpProcessor[8080][3] Starting background thread
+2018-02-18 18:38:29 HttpProcessor[8080][4] Starting background thread
+2018-02-18 18:38:29 WebappLoader[/myApp]: Deploying class repositories to work directory E:\git\tomcat-learn\work\_\_\myApp
+2018-02-18 18:38:29 WebappLoader[/myApp]: Deploy class files /WEB-INF/classes to E:\git\tomcat-learn\myApp\WEB-INF\classes
+2018-02-18 18:38:29 StandardManager[/myApp]: Seeding random number generator class java.security.SecureRandom
+2018-02-18 18:38:29 StandardManager[/myApp]: Seeding of random number generator has been completed
+2018-02-18 18:48:31 HttpConnector Opening server socket on all host IP addresses
+2018-02-18 18:48:31 HttpConnector[8080] Starting background thread
+2018-02-18 18:48:31 HttpProcessor[8080][0] Starting background thread
+2018-02-18 18:48:31 HttpProcessor[8080][1] Starting background thread
+2018-02-18 18:48:31 HttpProcessor[8080][2] Starting background thread
+2018-02-18 18:48:31 HttpProcessor[8080][3] Starting background thread
+2018-02-18 18:48:31 HttpProcessor[8080][4] Starting background thread
+2018-02-18 18:48:31 WebappLoader[/myApp]: Deploying class repositories to work directory E:\git\tomcat-learn\work\_\_\myApp
+2018-02-18 18:48:31 WebappLoader[/myApp]: Deploy class files /WEB-INF/classes to E:\git\tomcat-learn\myApp\WEB-INF\classes
+2018-02-18 18:48:31 StandardManager[/myApp]: Seeding random number generator class java.security.SecureRandom
+2018-02-18 18:48:31 StandardManager[/myApp]: Seeding of random number generator has been completed
+2018-02-18 18:51:19 HttpConnector Opening server socket on all host IP addresses
+2018-02-18 18:51:19 HttpConnector[8080] Starting background thread
+2018-02-18 18:51:19 HttpProcessor[8080][0] Starting background thread
+2018-02-18 18:51:19 HttpProcessor[8080][1] Starting background thread
+2018-02-18 18:51:19 HttpProcessor[8080][2] Starting background thread
+2018-02-18 18:51:19 HttpProcessor[8080][3] Starting background thread
+2018-02-18 18:51:19 HttpProcessor[8080][4] Starting background thread
+2018-02-18 18:51:19 WebappLoader[/myApp]: Deploying class repositories to work directory E:\git\tomcat-learn\work\_\_\myApp
+2018-02-18 18:51:19 WebappLoader[/myApp]: Deploy class files /WEB-INF/classes to E:\git\tomcat-learn\myApp\WEB-INF\classes
+2018-02-18 18:51:19 StandardManager[/myApp]: Seeding random number generator class java.security.SecureRandom
+2018-02-18 18:51:19 StandardManager[/myApp]: Seeding of random number generator has been completed
+2018-02-18 18:53:07 HttpConnector Opening server socket on all host IP addresses
+2018-02-18 18:53:07 HttpConnector[8080] Starting background thread
+2018-02-18 18:53:07 HttpProcessor[8080][0] Starting background thread
+2018-02-18 18:53:07 HttpProcessor[8080][1] Starting background thread
+2018-02-18 18:53:07 HttpProcessor[8080][2] Starting background thread
+2018-02-18 18:53:07 HttpProcessor[8080][3] Starting background thread
+2018-02-18 18:53:07 HttpProcessor[8080][4] Starting background thread
+2018-02-18 18:53:07 WebappLoader[/myApp]: Deploying class repositories to work directory E:\git\tomcat-learn\work\_\_\myApp
+2018-02-18 18:53:07 WebappLoader[/myApp]: Deploy class files /WEB-INF/classes to E:\git\tomcat-learn\myApp\WEB-INF\classes
+2018-02-18 18:53:08 StandardManager[/myApp]: Seeding random number generator class java.security.SecureRandom
+2018-02-18 18:53:08 StandardManager[/myApp]: Seeding of random number generator has been completed
+2018-02-18 19:38:35 HttpConnector Opening server socket on all host IP addresses
+2018-02-18 19:38:35 HttpConnector[8080] Starting background thread
+2018-02-18 19:38:35 HttpProcessor[8080][0] Starting background thread
+2018-02-18 19:38:35 HttpProcessor[8080][1] Starting background thread
+2018-02-18 19:38:35 HttpProcessor[8080][2] Starting background thread
+2018-02-18 19:38:35 HttpProcessor[8080][3] Starting background thread
+2018-02-18 19:38:35 HttpProcessor[8080][4] Starting background thread
+2018-02-18 19:38:35 WebappLoader[/myApp]: Deploying class repositories to work directory E:\git\tomcat-learn\work\_\_\myApp
+2018-02-18 19:38:35 WebappLoader[/myApp]: Deploy class files /WEB-INF/classes to E:\git\tomcat-learn\myApp\WEB-INF\classes
+2018-02-18 19:38:35 StandardManager[/myApp]: Seeding random number generator class java.security.SecureRandom
+2018-02-18 19:38:35 StandardManager[/myApp]: Seeding of random number generator has been completed
+2018-02-18 19:42:18 HttpConnector Opening server socket on all host IP addresses
+2018-02-18 19:42:18 HttpConnector[8080] Starting background thread
+2018-02-18 19:42:18 HttpProcessor[8080][0] Starting background thread
+2018-02-18 19:42:18 HttpProcessor[8080][1] Starting background thread
+2018-02-18 19:42:18 HttpProcessor[8080][2] Starting background thread
+2018-02-18 19:42:18 HttpProcessor[8080][3] Starting background thread
+2018-02-18 19:42:18 HttpProcessor[8080][4] Starting background thread
+2018-02-18 19:42:18 WebappLoader[/myApp]: Deploying class repositories to work directory E:\git\tomcat-learn\work\_\_\myApp
+2018-02-18 19:42:18 WebappLoader[/myApp]: Deploy class files /WEB-INF/classes to E:\git\tomcat-learn\myApp\WEB-INF\classes
+2018-02-18 19:42:18 StandardManager[/myApp]: Seeding random number generator class java.security.SecureRandom
+2018-02-18 19:42:18 StandardManager[/myApp]: Seeding of random number generator has been completed
+2018-02-18 20:41:26 HttpConnector Opening server socket on all host IP addresses
+2018-02-18 20:41:26 HttpConnector[8080] Starting background thread
+2018-02-18 20:41:26 HttpProcessor[8080][0] Starting background thread
+2018-02-18 20:41:26 HttpProcessor[8080][1] Starting background thread
+2018-02-18 20:41:26 HttpProcessor[8080][2] Starting background thread
+2018-02-18 20:41:26 HttpProcessor[8080][3] Starting background thread
+2018-02-18 20:41:26 HttpProcessor[8080][4] Starting background thread
+2018-02-18 20:41:26 WebappLoader[/myApp]: Deploying class repositories to work directory E:\git\tomcat-learn\work\_\_\myApp
+2018-02-18 20:41:26 WebappLoader[/myApp]: Deploy class files /WEB-INF/classes to E:\git\tomcat-learn\myApp\WEB-INF\classes
+2018-02-18 20:41:26 StandardManager[/myApp]: Seeding random number generator class java.security.SecureRandom
+2018-02-18 20:41:26 StandardManager[/myApp]: Seeding of random number generator has been completed
+2018-02-18 20:43:45 HttpConnector Opening server socket on all host IP addresses
+2018-02-18 20:43:45 HttpConnector[8080] Starting background thread
+2018-02-18 20:43:45 HttpProcessor[8080][0] Starting background thread
+2018-02-18 20:43:45 HttpProcessor[8080][1] Starting background thread
+2018-02-18 20:43:45 HttpProcessor[8080][2] Starting background thread
+2018-02-18 20:43:45 HttpProcessor[8080][3] Starting background thread
+2018-02-18 20:43:45 HttpProcessor[8080][4] Starting background thread
+2018-02-18 20:43:45 WebappLoader[/myApp]: Deploying class repositories to work directory E:\git\tomcat-learn\work\_\_\myApp
+2018-02-18 20:43:45 WebappLoader[/myApp]: Deploy class files /WEB-INF/classes to E:\git\tomcat-learn\myApp\WEB-INF\classes
+2018-02-18 20:43:45 StandardManager[/myApp]: Seeding random number generator class java.security.SecureRandom
+2018-02-18 20:43:45 StandardManager[/myApp]: Seeding of random number generator has been completed
+2018-02-18 21:06:41 HttpConnector Opening server socket on all host IP addresses
+2018-02-18 21:06:41 HttpConnector[8080] Starting background thread
+2018-02-18 21:06:41 HttpProcessor[8080][0] Starting background thread
+2018-02-18 21:06:41 HttpProcessor[8080][1] Starting background thread
+2018-02-18 21:06:41 HttpProcessor[8080][2] Starting background thread
+2018-02-18 21:06:41 HttpProcessor[8080][3] Starting background thread
+2018-02-18 21:06:41 HttpProcessor[8080][4] Starting background thread
+2018-02-18 21:06:41 WebappLoader[/myApp]: Deploying class repositories to work directory E:\git\tomcat-learn\work\_\_\myApp
+2018-02-18 21:06:41 WebappLoader[/myApp]: Deploy class files /WEB-INF/classes to E:\git\tomcat-learn\myApp\WEB-INF\classes
+2018-02-18 21:06:41 StandardManager[/myApp]: Seeding random number generator class java.security.SecureRandom
+2018-02-18 21:06:41 StandardManager[/myApp]: Seeding of random number generator has been completed
+2018-02-18 21:09:57 HttpConnector Opening server socket on all host IP addresses
+2018-02-18 21:09:57 HttpConnector[8080] Starting background thread
+2018-02-18 21:09:57 HttpProcessor[8080][0] Starting background thread
+2018-02-18 21:09:57 HttpProcessor[8080][1] Starting background thread
+2018-02-18 21:09:57 HttpProcessor[8080][2] Starting background thread
+2018-02-18 21:09:57 HttpProcessor[8080][3] Starting background thread
+2018-02-18 21:09:57 HttpProcessor[8080][4] Starting background thread
+2018-02-18 21:09:57 WebappLoader[/myApp]: Deploying class repositories to work directory E:\git\tomcat-learn\work\_\_\myApp
+2018-02-18 21:09:57 WebappLoader[/myApp]: Deploy class files /WEB-INF/classes to E:\git\tomcat-learn\myApp\WEB-INF\classes
+2018-02-18 21:09:57 StandardManager[/myApp]: Seeding random number generator class java.security.SecureRandom
+2018-02-18 21:09:57 StandardManager[/myApp]: Seeding of random number generator has been completed
+2018-02-18 21:11:33 HttpConnector Opening server socket on all host IP addresses
+2018-02-18 21:11:33 HttpConnector[8080] Starting background thread
+2018-02-18 21:11:33 HttpProcessor[8080][0] Starting background thread
+2018-02-18 21:11:33 HttpProcessor[8080][1] Starting background thread
+2018-02-18 21:11:33 HttpProcessor[8080][2] Starting background thread
+2018-02-18 21:11:33 HttpProcessor[8080][3] Starting background thread
+2018-02-18 21:11:33 HttpProcessor[8080][4] Starting background thread
+2018-02-18 21:11:33 WebappLoader[/myApp]: Deploying class repositories to work directory E:\git\tomcat-learn\work\_\_\myApp
+2018-02-18 21:11:33 WebappLoader[/myApp]: Deploy class files /WEB-INF/classes to E:\git\tomcat-learn\myApp\WEB-INF\classes
+2018-02-18 21:11:33 StandardManager[/myApp]: Seeding random number generator class java.security.SecureRandom
+2018-02-18 21:11:34 StandardManager[/myApp]: Seeding of random number generator has been completed
+2018-02-18 21:19:03 HttpConnector Opening server socket on all host IP addresses
+2018-02-18 21:19:03 HttpConnector[8080] Starting background thread
+2018-02-18 21:19:03 HttpProcessor[8080][0] Starting background thread
+2018-02-18 21:19:03 HttpProcessor[8080][1] Starting background thread
+2018-02-18 21:19:03 HttpProcessor[8080][2] Starting background thread
+2018-02-18 21:19:03 HttpProcessor[8080][3] Starting background thread
+2018-02-18 21:19:03 HttpProcessor[8080][4] Starting background thread
+2018-02-18 21:19:04 WebappLoader[/myApp]: Deploying class repositories to work directory E:\git\tomcat-learn\work\_\_\myApp
+2018-02-18 21:19:04 WebappLoader[/myApp]: Deploy class files /WEB-INF/classes to E:\git\tomcat-learn\myApp\WEB-INF\classes
+2018-02-18 21:19:04 StandardManager[/myApp]: Seeding random number generator class java.security.SecureRandom
+2018-02-18 21:19:04 StandardManager[/myApp]: Seeding of random number generator has been completed
+2018-02-18 21:25:46 HttpConnector Opening server socket on all host IP addresses
+2018-02-18 21:25:46 HttpConnector[8080] Starting background thread
+2018-02-18 21:25:46 HttpProcessor[8080][0] Starting background thread
+2018-02-18 21:25:46 HttpProcessor[8080][1] Starting background thread
+2018-02-18 21:25:46 HttpProcessor[8080][2] Starting background thread
+2018-02-18 21:25:46 HttpProcessor[8080][3] Starting background thread
+2018-02-18 21:25:46 HttpProcessor[8080][4] Starting background thread
+2018-02-18 21:25:46 WebappLoader[/myApp]: Deploying class repositories to work directory E:\git\tomcat-learn\work\_\_\myApp
+2018-02-18 21:25:46 WebappLoader[/myApp]: Deploy class files /WEB-INF/classes to E:\git\tomcat-learn\myApp\WEB-INF\classes
+2018-02-18 21:25:46 StandardManager[/myApp]: Seeding random number generator class java.security.SecureRandom
+2018-02-18 21:25:46 StandardManager[/myApp]: Seeding of random number generator has been completed
+2018-02-18 21:27:42 HttpConnector Opening server socket on all host IP addresses
+2018-02-18 21:27:42 HttpConnector[8080] Starting background thread
+2018-02-18 21:27:42 HttpProcessor[8080][0] Starting background thread
+2018-02-18 21:27:42 HttpProcessor[8080][1] Starting background thread
+2018-02-18 21:27:42 HttpProcessor[8080][2] Starting background thread
+2018-02-18 21:27:42 HttpProcessor[8080][3] Starting background thread
+2018-02-18 21:27:42 HttpProcessor[8080][4] Starting background thread
+2018-02-18 21:27:42 WebappLoader[/myApp]: Deploying class repositories to work directory E:\git\tomcat-learn\work\_\_\myApp
+2018-02-18 21:27:42 WebappLoader[/myApp]: Deploy class files /WEB-INF/classes to E:\git\tomcat-learn\myApp\WEB-INF\classes
+2018-02-18 21:27:42 StandardManager[/myApp]: Seeding random number generator class java.security.SecureRandom
+2018-02-18 21:27:42 StandardManager[/myApp]: Seeding of random number generator has been completed
+2018-02-18 21:29:42 HttpConnector Opening server socket on all host IP addresses
+2018-02-18 21:29:42 HttpConnector[8080] Starting background thread
+2018-02-18 21:29:42 HttpProcessor[8080][0] Starting background thread
+2018-02-18 21:29:42 HttpProcessor[8080][1] Starting background thread
+2018-02-18 21:29:42 HttpProcessor[8080][2] Starting background thread
+2018-02-18 21:29:42 HttpProcessor[8080][3] Starting background thread
+2018-02-18 21:29:42 HttpProcessor[8080][4] Starting background thread
+2018-02-18 21:29:42 WebappLoader[/myApp]: Deploying class repositories to work directory E:\git\tomcat-learn\work\_\_\myApp
+2018-02-18 21:29:42 WebappLoader[/myApp]: Deploy class files /WEB-INF/classes to E:\git\tomcat-learn\myApp\WEB-INF\classes
+2018-02-18 21:29:42 StandardManager[/myApp]: Seeding random number generator class java.security.SecureRandom
+2018-02-18 21:29:42 StandardManager[/myApp]: Seeding of random number generator has been completed
+2018-02-18 22:19:42 HttpConnector Opening server socket on all host IP addresses
+2018-02-18 22:19:42 HttpConnector[8080] Starting background thread
+2018-02-18 22:19:42 HttpProcessor[8080][0] Starting background thread
+2018-02-18 22:19:42 HttpProcessor[8080][1] Starting background thread
+2018-02-18 22:19:42 HttpProcessor[8080][2] Starting background thread
+2018-02-18 22:19:42 HttpProcessor[8080][3] Starting background thread
+2018-02-18 22:19:42 HttpProcessor[8080][4] Starting background thread
+2018-02-18 22:19:42 WebappLoader[/myApp]: Deploying class repositories to work directory E:\git\tomcat-learn\work\_\_\myApp
+2018-02-18 22:19:42 WebappLoader[/myApp]: Deploy class files /WEB-INF/classes to E:\git\tomcat-learn\myApp\WEB-INF\classes
+2018-02-18 22:19:42 StandardManager[/myApp]: Seeding random number generator class java.security.SecureRandom
+2018-02-18 22:19:42 StandardManager[/myApp]: Seeding of random number generator has been completed
