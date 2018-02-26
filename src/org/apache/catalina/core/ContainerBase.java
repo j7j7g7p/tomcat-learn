@@ -1002,6 +1002,7 @@ public abstract class ContainerBase
      * @param request Request being processed
      * @param update Update the Request to reflect the mapping selection?
      */
+    //tomcat5 中已经废弃掉了，通过request中获取Context对象
     public Container map(Request request, boolean update) {
 
         // Select the Mapper we will use

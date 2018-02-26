@@ -239,6 +239,7 @@ public final class ContextConfig
     /**
      * Process the application configuration file, if it exists.
      */
+    //打开/WEB_INFO/web.xml的
     private void applicationConfig() {
 
         // Open the application web.xml file, if it exists
