@@ -79,6 +79,11 @@ package org.apache.catalina;
  * @version $Revision: 1.7 $ $Date: 2001/11/06 22:33:46 $
  */
 
+/**
+ * Service是连接器组，包含一个或者多个连接器。这些连接器共享一个单独的容器去处理请求。
+ * 这种处理可以实现一些功能如：SSL连接器和非SSL连接器共享一个web应用群
+ * 给定的jvm可以包含任何数量的Service实例，这些Service实例互相独立，只共享基础jvm组件，和系统class路径的字节码文件
+ */
 public interface Service {
 
 

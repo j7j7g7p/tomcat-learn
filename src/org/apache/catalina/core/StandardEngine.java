@@ -82,7 +82,8 @@ import org.apache.catalina.util.ServerInfo;
  * @author Craig R. McClanahan
  * @version $Revision: 1.15 $ $Date: 2002/05/02 22:14:45 $
  */
-
+//保留默认Host和默认Context
+//Engine 的子容器是Host
 public class StandardEngine
     extends ContainerBase
     implements Engine {
@@ -291,6 +292,7 @@ public class StandardEngine
      *
      * @param child Child container to be added
      */
+    //Engine作为顶层容器，可以留有子容器，但是子容器类型必须是Host类型的
     public void addChild(Container child) {
 
         if (!(child instanceof Host))
@@ -319,6 +321,7 @@ public class StandardEngine
      *
      * @param container Proposed parent Container
      */
+    //Engine对象不在有父容器,调用就会抛出异常
     public void setParent(Container container) {
 
         throw new IllegalArgumentException

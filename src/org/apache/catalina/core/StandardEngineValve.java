@@ -169,6 +169,7 @@ final class StandardEngineValve
         }
 
         // Ask this Host to process this request
+        //engine的基础阀门调用引擎的默认Host invoke(request, response)方法
         host.invoke(request, response);
 
     }

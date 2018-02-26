@@ -275,6 +275,7 @@ public final class StandardServer
     /**
      * The port number on which we wait for shutdown commands.
      */
+    //监听服务器关闭命令的端口号
     private int port = 8005;
 
 
@@ -499,6 +500,7 @@ public final class StandardServer
     /**
      * Wait until a proper shutdown command is received, then return.
      */
+    //负责等待关闭整个Tomcat部署的命令
     public void await() {
 
         // Set up a server socket to wait on
@@ -2202,6 +2204,7 @@ public final class StandardServer
      * @exception LifecycleException if this component detects a fatal error
      *  that needs to be reported
      */
+    ///没有重置initialized 如果服务器组件关闭后重启不回初始化
     public void stop() throws LifecycleException {
 
         // Validate and update our current component state
