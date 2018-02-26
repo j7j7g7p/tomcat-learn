@@ -463,7 +463,7 @@ public class StandardContext
 
 
     /**
-     * Caching allowed flag.
+     * Caching allowed flag. 默认使用缓存
      */
     protected boolean cachingAllowed = true;
 
@@ -3362,12 +3362,14 @@ public class StandardContext
         setConfigured(false);
         boolean ok = true;
 
+        //配置资源
         // Add missing components as necessary
         if (getResources() == null) {   // (1) Required by Loader
+        	System.out.println("getResources() == null加载默认资源文件");
             if (debug >= 1)
                 log("Configuring default Resources");
             try {
-                if ((docBase != null) && (docBase.endsWith(".war")))
+                if ((docBase != null) && (docBase.endsWith(".war")))//如果docBase是war文件
                     setResources(new WARDirContext());
                 else
                     setResources(new FileDirContext());
