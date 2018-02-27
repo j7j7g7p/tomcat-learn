@@ -503,6 +503,7 @@ public final class StandardServer
     //负责等待关闭整个Tomcat部署的命令
     public void await() {
 
+    	System.out.println("进入await()方法");
         // Set up a server socket to wait on
         ServerSocket serverSocket = null;
         try {
@@ -524,6 +525,7 @@ public final class StandardServer
             InputStream stream = null;
             try {
                 socket = serverSocket.accept();
+                System.out.println("await()接收到了一个套接字");
                 socket.setSoTimeout(10 * 1000);  // Ten seconds
                 stream = socket.getInputStream();
             } catch (AccessControlException ace) {
@@ -558,6 +560,7 @@ public final class StandardServer
                 command.append((char) ch);
                 expected--;
             }
+            System.out.println("命令："+command);
 
             // Close the socket now that we are done with it
             try {

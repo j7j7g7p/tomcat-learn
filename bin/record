@@ -1,0 +1,108 @@
+深入tomcat 
+p33
+p36:
+	1，StringManager：Tomcat利用属性文件保存异常信息，通过StringManager管理这些文件，单例模式(注册式的Hashtable存储，每个包共享一个实例，通过包名获取实例)
+p48:
+	parseRequest
+p52
+	程 序 员 不 被 允 许 修 改 参 数 值 。 因 此 ， 将 使 用 一 个 特 殊 的 HashMap ：
+	org.apache.catalina.util.ParameterMap。
+
+简单服务器：{
+		模块：
+		启动模块startup，连接器connector，core核心模块
+		
+		启动模块startup：
+		Bootstrap.java负责启动程序
+		
+		connector模块5部分：
+		连接器和它的支撑类(HttpConnector 和 HttpProcessor)，指代 HTTP 请求的类(HttpRequest)和它的辅助类，指代 HTTP 响应的类(HttpResponse)和它的辅助类，
+		Facade 类(HttpRequestFacade 和 HttpResponseFacade)，Constant 类。
+		
+		core 模块由两个类组成：ServletProcessor 和 StaticResourceProcessor。
+		
+		1，Bootstrap启动程序(实例化HttpConnector)
+		2，HttpConnector等待请求(创建套接字服务器等待请求,实例化HttpProcessor处理工作)
+		3，HttpProcessor创建请求和响应对象
+			(实例SocketInputStream、HttpRequest、HttpResponse，设置响应的请求和头部，parseRequest解析请求、parseHeaders解析头部，ServletProcessor或StaticResourceProcessor处理相应的资源)
+		4，HttpRequest实例化
+		
+		5，HttpResponse实例化
+		
+		6，parseRequest解析请求
+			主要解析请求行，method，protocol，queryString。只要调用HttpRequest的getParameter,
+			getParameterMap, getParameterNames 或者 getParameterValues才解析请求内容
+		7，parseHeaders解析头部
+			HttpHeader对应请求的头部，设置头部的key—value，若是cookies则设置请求的cookie
+			
+		8，ServletProcessor或StaticResourceProcessor处理相应的资源
+}
+p58
+开始学习第四章 :Tomcat  的默认连接器
+Tomcat 连接器是一个可以插入 servlet 容器的独立模块，已经存在相当多的连接器了，包括 Coyote, mod_jk, mod_jk2 和 mod_webapp。一个 Tomcat 连接器必须符合以下条件：
+	1. 必须实现接口 org.apache.catalina.Connector。
+	2. 必须创建请求对象，该请求对象的类必须实现接口 org.apache.catalina.Request。
+	3. 必须创建响应对象，该响应对象的类必须实现接口 org.apache.catalina.Response。
+
+HTTP 1.1 新特性
+	持久连接connection: keep-alive
+	块编码：
+		HTTP1.1使用一个特别的头部transfer-encoding来表示有多少以块形式的字节流将会被发
+		送。对每块来说，在数据之前，长度(十六进 制)后面接着 CR/LF 将被发送。整个事务通过一个
+		零长度的块来标识。假设你想用 2 个块发送以下 38 个字节，第一个长度是 29，第二个长度是 9。
+		I'm as helpless as a kitten up a tree.
+		你将这样发送：
+		1D\r\n
+		I'm as helpless as a kitten u
+		9\r\n
+		p a tree.
+		0\r\n
+		1D,是 29 的十六进制，指示第一块由 29 个字节组成。0\r\n 标识这个事务的结束。
+	
+	状态  100( 持续状态) ):
+p61
+	HttpConnector-initialize-open-( ServerSocketFactory 和类 DefaultServerSocketFactory) -获取ServerSocket实例
+	HttpConnector 实例一次仅仅拥有一个 HttpProcessor
+	每个 HttpProcessor 实例有自己的线程 用于解析
+p65
+		处理线程，assign，await，wait，notifyAll，没有看到源码理解困难
+		为什么 await 需要使用一个本地变量(socket)而不是返回实例的 socket 变量呢？因为这样
+	一来，在当前 socket 被完全处理之前，实例的 socket 变量可以赋给下一个前来的 socket。
+		为什么 await 方法需要调用 notifyAll 呢? 这是为了防止在 available 为 true 的时候另一
+	个 socket 到来。在这种情况下，连接器线程将会在 assign 方法的 while 循环中停止，直到接收
+	到处理器线程的 notifyAll 调用
+
+p76
+	第五章：容器
+	四种容器：
+	Engine（表示整个 Catalina 的 servlet 引擎）, 
+	Host（表示一个拥有数个上下文的虚拟主机）, 
+	Context（表示一个 Web 应用，一个 context 包含一个或多个wrapper）,  
+	Wrapper（表示一个独立的 servlet）
+	Container接口被设计成Tomcat管理员可以通过server.xml文件配置来决定其工作方式的模式。它通过一个 pipeline（流水线）和一系列的阀门来实现，这些内容将会在下一节 Pipelining Task 中讨论。
+	阀门可以通过编辑 Tomcat 的配置文件 server.xml 来动态的添加
+P81
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+。。。
+
+
+p367 
