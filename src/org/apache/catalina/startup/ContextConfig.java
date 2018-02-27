@@ -121,7 +121,7 @@ import org.xml.sax.SAXParseException;
  * @author Craig R. McClanahan
  * @version $Revision: 1.66 $ $Date: 2002/06/23 20:35:30 $
  */
-
+//LifecycleListener的标准实现
 public final class ContextConfig
     implements LifecycleListener {
 
