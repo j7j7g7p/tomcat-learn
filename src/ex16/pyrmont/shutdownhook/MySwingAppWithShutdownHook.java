@@ -1,18 +1,25 @@
 package ex16.pyrmont.shutdownhook;
 
-import java.awt.*;
-import javax.swing.*;
-import java.awt.event.*;
+import java.awt.Rectangle;
+import java.awt.event.ActionEvent;
 import java.io.File;
 import java.io.IOException;
 
-public class MySwingApp extends JFrame {
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JTextArea;
+
+public class MySwingAppWithShutdownHook extends JFrame {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	JButton exitButton = new JButton();
 	JTextArea jTextArea1 = new JTextArea();
 	String dir = System.getProperty("user.dir");
 	String filename = "temp.txt";
 
-	public MySwingApp() {
+	public MySwingAppWithShutdownHook() {
 		exitButton.setText("Exit");
 		exitButton.setBounds(new Rectangle(304, 248, 76, 37));
 		exitButton.addActionListener(new java.awt.event.ActionListener() {
@@ -32,6 +39,9 @@ public class MySwingApp extends JFrame {
 	}
 
 	private void initialize() {
+		// add shutdown hook
+		MyShutdownHook shutdownHook = new MyShutdownHook();
+		Runtime.getRuntime().addShutdownHook(shutdownHook);
 		// create a temp file
 		File file = new File(dir, filename);
 		try {
@@ -57,6 +67,13 @@ public class MySwingApp extends JFrame {
 	}
 
 	public static void main(String[] args) {
-		MySwingApp mySwingApp = new MySwingApp();
+		MySwingAppWithShutdownHook mySwingApp = new MySwingAppWithShutdownHook();
+	}
+	
+	private class MyShutdownHook extends Thread {
+		
+		public void run() {
+			shutdown();
+		}
 	}
 }

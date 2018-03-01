@@ -626,6 +626,7 @@ public final class ContextConfig
         defaultConfig();
         applicationConfig();
         if (ok) {
+        	//检查web.xml配置的安全限制
             validateSecurityRoles();
         }
 
