@@ -51,12 +51,12 @@ public final class Bootstrap {
             System.setProperty("catalina.base", getCatalinaHome());
 
         // Construct the class loaders we will need
-        ClassLoader commonLoader = null;
-        ClassLoader catalinaLoader = null;
-        ClassLoader sharedLoader = null;
+        ClassLoader commonLoader = null;//   载入 %CATALINA_HOME%/common/classes,%CATALINA_HOME%/common/endorsed,%CATALINA_HOME%/common/lib
+        ClassLoader catalinaLoader = null;//  %CATALINA_HOME%/server/classes,%CATALINA_HOME%/server/lib
+        ClassLoader sharedLoader = null;//  %CATALINA_HOME%/shared/classes,%CATALINA_HOME%/shared/lib 不能访问catalina的内部类
         try {
 
-            File unpacked[] = new File[1];
+            File unpacked[] = new File[1];//common/classes
             File packed[] = new File[1];
             File packed2[] = new File[2];
             ClassLoaderFactory.setDebug(debug);
@@ -142,6 +142,7 @@ public final class Bootstrap {
 
     /**
      * Get the value of the catalina.home environment variable.
+     * 不会将def value 设置为系统属性
      */
     private static String getCatalinaHome() {
         return System.getProperty("catalina.home",

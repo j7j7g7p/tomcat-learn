@@ -97,7 +97,7 @@ import org.xml.sax.InputSource;
  * @author Craig R. McClanahan
  * @version $Revision: 1.48 $ $Date: 2002/05/23 17:22:37 $
  */
-
+//入口process()
 public class Catalina {
 
 
