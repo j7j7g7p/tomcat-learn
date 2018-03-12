@@ -24,7 +24,9 @@ public final class Bootstrap {
   // note that we don't instantiate a Wrapper here,
   // ContextConfig reads the WEB-INF/classes dir and loads all servlets.
   public static void main(String[] args) {
-    System.setProperty("catalina.base", System.getProperty("user.dir"));
+	  String property = System.getProperty("user.dir");
+	  System.out.println(property);
+    System.setProperty("catalina.base", property);
     Connector connector = new HttpConnector();
 
     Context context = new StandardContext();

@@ -5,6 +5,22 @@
     "http://java.sun.com/dtd/web-app_2_3.dtd">
 
 <web-app>
+<!--   <servlet>
+    <servlet-name>Manager</servlet-name>
+    <servlet-class>org.apache.catalina.servlets.ManagerServlet</servlet-class>
+    <init-param>
+    	<param-name>debug</param-name>
+    	<param-value>2</param-value>
+    </init-param>
+  </servlet>
+  <servlet>
+    <servlet-name>HTMLManager</servlet-name>
+    <servlet-class>org.apache.catalina.servlets.HTMLManagerServlet</servlet-class>
+    <init-param>
+    	<param-name>debug</param-name>
+    	<param-value>2</param-value>
+    </init-param>
+  </servlet> -->
   <servlet>
     <servlet-name>Modern</servlet-name>
     <servlet-class>ModernServlet</servlet-class>

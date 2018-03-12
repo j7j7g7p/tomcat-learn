@@ -900,6 +900,8 @@ public final class StandardWrapper
             // Check if loading the servlet in this web application should be
             // allowed
             if (!isServletAllowed(servlet)) {
+            	System.out.println(sm.getString("standardWrapper.privilegedServlet",
+                                  actualClass));
                 throw new SecurityException
                     (sm.getString("standardWrapper.privilegedServlet",
                                   actualClass));
