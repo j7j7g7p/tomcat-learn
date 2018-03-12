@@ -73,6 +73,7 @@ import java.io.IOException;
 import java.net.JarURLConnection;
 import java.net.URL;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Enumeration;
 import java.util.HashMap;
 import java.util.jar.JarEntry;
@@ -381,6 +382,7 @@ public class HostConfig
         if (!file.isAbsolute())
             file = new File(System.getProperty("catalina.base"),
                             host.getAppBase());
+        System.out.println("==================appBase"+file);
         return (file);
 
     }
@@ -401,7 +403,7 @@ public class HostConfig
         if (!appBase.exists() || !appBase.isDirectory())
             return;
         String files[] = appBase.list();
-
+        System.out.println("[hostConfig.deployApps()-405]:"+Arrays.toString(files));
         deployDescriptors(appBase, files);
         deployWARs(appBase, files);
         deployDirectories(appBase, files);
