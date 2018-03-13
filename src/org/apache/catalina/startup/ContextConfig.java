@@ -248,6 +248,7 @@ public final class ContextConfig
         if (servletContext != null)
             stream = servletContext.getResourceAsStream
                 (Constants.ApplicationWebXml);
+        System.out.println("applicationConfig():"+Constants.ApplicationWebXml);
         if (stream == null) {
             log(sm.getString("contextConfig.applicationMissing"));
             return;
@@ -508,6 +509,8 @@ public final class ContextConfig
         if (!file.isAbsolute())
             file = new File(System.getProperty("catalina.base"),
                             Constants.DefaultWebXml);
+        
+        System.out.println("defaultConfig():"+file.getPath());
         FileInputStream stream = null;
         try {
             stream = new FileInputStream(file.getCanonicalPath());
