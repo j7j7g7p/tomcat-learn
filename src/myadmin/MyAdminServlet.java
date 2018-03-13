@@ -13,7 +13,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import org.apache.commons.modeler.Registry;
-
+//http://localhost:8080/myadmin/myAdmin?action=listAllContexts
 public class MyAdminServlet extends HttpServlet {
 	/**
 	 * 
