@@ -3,11 +3,6 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/JavaResource">
-		<attributes>
-			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="tomcat-learn/lib/source"/>
-		</attributes>
-	</classpathentry>
 	<classpathentry kind="lib" path="web/WEB_INF/lib/commons-beanutils.jar"/>
 	<classpathentry kind="lib" path="web/WEB_INF/lib/commons-collections.jar"/>
 	<classpathentry kind="lib" path="web/WEB_INF/lib/commons-daemon.jar"/>
